@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Ali — AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="logo">Mohamed Ali</span>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HOME / HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">AI &amp; Machine Learning</p>
+        <h1>Building AI systems that turn raw data into decisions.</h1>
+        <p class="hero-intro">
+          I'm Mohamed Ali, a Computer Science undergraduate at Assiut University
+          specializing in Artificial Intelligence and Machine Learning. I design and
+          deploy end-to-end ML pipelines — from messy data to production-ready models.
+        </p>
+        <a href="#projects" class="btn btn-primary">View My Projects</a>
+
+        <!-- Signature element: metrics readout styled like a dashboard/terminal output -->
+        <dl class="stat-readout">
+          <div class="stat">
+            <dt>Model Accuracy</dt>
+            <dd>94.5%</dd>
+          </div>
+          <div class="stat">
+            <dt>Records Processed</dt>
+            <dd>50,000+</dd>
+          </div>
+          <div class="stat">
+            <dt>CGPA</dt>
+            <dd>3.86 / 4.0</dd>
+          </div>
+        </dl>
+      </div>
+
+      <figure class="hero-photo">
+        <img src="profile.jpg" alt="Mohamed Ali smiling on the steps outside Nile University's main campus building">
+        <figcaption>Cairo, Egypt</figcaption>
+      </figure>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <p class="eyebrow">About</p>
+      <h2>A little about me</h2>
+
+      <div class="about-grid">
+        <p class="about-bio">
+          I'm a results-driven Computer Science student with a 3.86/4.0 CGPA, focused on
+          Artificial Intelligence and Machine Learning. I've built high-accuracy models
+          (92%–95%) on real-world datasets of 50,000+ records, and I care about the whole
+          pipeline — data cleaning, feature engineering, model evaluation, and getting a
+          model in front of real users through tools like Streamlit. Outside of coursework,
+          I've interned in both a data science team and a bank's analytics function, which
+          taught me how ML work actually lands with non-technical stakeholders.
+        </p>
+
+        <div class="about-education">
+          <h3>Education</h3>
+          <p>
+            <strong>Bachelor of Computer Science</strong><br>
+            Assiut University — CGPA 3.86 / 4.0<br>
+            Aug 2023 – Present
+          </p>
+          <h3>Experience</h3>
+          <p>
+            <strong>Data Science &amp; AI Intern</strong>, Digital Egypt Pioneers Initiative — Jun–Dec 2025<br>
+            <strong>Business &amp; Data Intern</strong>, Commercial International Bank (CIB) — Aug–Sep 2025
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section section-alt">
+      <p class="eyebrow">Skills</p>
+      <h2>What I work with</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>ML &amp; Deep Learning</h3>
+          <ul>
+            <li>scikit-learn</li>
+            <li>TensorFlow &amp; Keras</li>
+            <li>XGBoost</li>
+            <li>Regression, Classification, Clustering</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Data &amp; Visualization</h3>
+          <ul>
+            <li>Pandas &amp; NumPy</li>
+            <li>Feature Engineering &amp; EDA</li>
+            <li>Matplotlib &amp; Seaborn</li>
+            <li>Dashboard Design</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Tools &amp; Deployment</h3>
+          <ul>
+            <li>Streamlit</li>
+            <li>Git &amp; GitHub</li>
+            <li>Jupyter &amp; Google Colab</li>
+            <li>NLP &amp; TF-IDF</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <p class="eyebrow">Projects</p>
+      <h2>Selected work</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <h3>Sales Forecasting &amp; Demand Prediction</h3>
+          <p>An XGBoost demand-forecasting model deployed as a live Streamlit dashboard for inventory and revenue planning.</p>
+          <ol>
+            <li>Engineered time-series features on 51,000+ retail transaction records.</li>
+            <li>Trained an XGBoost regressor, reaching 94.5% R² accuracy.</li>
+            <li>Deployed as a real-time Streamlit dashboard for inventory decisions.</li>
+          </ol>
+        </article>
+
+        <article class="project-card">
+          <h3>Fake News Detection</h3>
+          <p>An NLP text classifier that flags likely fake news articles in real time.</p>
+          <ol>
+            <li>Preprocessed and labeled 10,000+ news articles.</li>
+            <li>Built a TF-IDF + Logistic Regression classifier at 92% accuracy.</li>
+            <li>Deployed the model as a real-time Streamlit prediction app.</li>
+          </ol>
+        </article>
+
+        <article class="project-card">
+          <h3>Customer Segmentation</h3>
+          <p>Unsupervised clustering to uncover customer groups for targeted marketing.</p>
+          <ol>
+            <li>Applied K-Means and DBSCAN to 200 customer records.</li>
+            <li>Identified 5 distinct customer segments.</li>
+            <li>Automated preprocessing, cutting clustering errors by ~30%.</li>
+          </ol>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section-alt">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's work together</h2>
+      <p class="contact-intro">
+        I'm open to AI/ML internship and collaboration opportunities. Reach out through
+        any of the channels below.
+      </p>
+
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:mm86346789@gmail.com">mm86346789@gmail.com</a></li>
+        <li>Phone: <a href="tel:+201141788290">(+20) 114 178 8290</a></li>
+        <li>Location: Cairo, Egypt</li>
+        <li>GitHub: <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com/mohamedali</a> <em>(update with your handle)</em></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">linkedin.com/in/mohamedali</a> <em>(update with your handle)</em></li>
+      </ul>
+
+      <a href="mailto:mm86346789@gmail.com" class="btn btn-primary">Say Hello</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Mohamed Ali. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+</body>
+</html>
